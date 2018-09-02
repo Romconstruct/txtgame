@@ -11,7 +11,8 @@
 
 class Message():
     'Messages'
-    WELCOME_MSG = "### Welcome ###"
+    TITLE = 'A D V E N T U R E'
+    WELCOME_MSG = "Welcome"
     HELP_INFO = "Whenever you can type text, you can also type help or commands!"
     GREETING = "Greetings"
     STARTING_ITEM_INFO = "Your starting items are:"
@@ -20,3 +21,4 @@ class Message():
     CANT_DECIDE = "Can't decide which path to take? Just chose LEFT or RIGHT."
     CHOSE_LEFT = "You chose the left path!"
     CHOSE_RIGHT = "You chose the right path!"
+    COMMAND_INFO = 'Talk to the game by typing in plain English, using normal upper-\n and lower-case letters and punctuation.  Enter "quit" when done.'
